@@ -11,6 +11,9 @@ header{
     width: 100%;
     height: 10%;
 }
+ul{
+    margin-top: 0px;
+}
 body{
     background-color: black;
     color: white;
@@ -33,6 +36,8 @@ span{
 }
 .flex-container{
     display: flex;
+    background-color: #36454F;
+    width: 100%;
 }
 .para1{
     width: 50%;
@@ -90,7 +95,7 @@ ul>li{
     margin-left: 3%;
 }
 #header-textbox{
-    width: 13%;
+    width: 18%;
 }
 .header-textbox{
     margin-left: 7%;
@@ -98,6 +103,97 @@ ul>li{
 img{
     width: 30px; 
 }
+a{
+    color: white;
+    text-decoration: none;
+}
+@media (min-width: 481px) and (max-width: 1024px){
+    h1{
+        font-size: 180%;
+        margin-bottom: 0%;
+        margin-top: 0%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .para2{
+        display: block;
+        position: relative;
+        top: -30px;
+        width: 40%;
+        padding-left: 0%;
+        padding-right: 0%;
+        margin-left: 25%;
+        margin-right: 30%;
+        padding-top: 0%;
+    }
+    .para1{
+        position: relative;
+        width: 100%;
+        height: 35%;
+        padding-top: 75px;
+        font-size: 100%;
+        padding-left: 0%;
+        padding-right: 0%;
+        margin-left: 10%;
+        margin-right: 15%;
+    }
+    .body-para{
+        width: 93%;
+    }
+    .flex-container{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }
+    footer{
+        background-color: white;
+        text-align: center;
+        color: black;
+        position: fixed;
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 5px;
+        height: 100px;
+    }
+    form{
+        position: relative;
+        bottom: 20%;
+        padding-top: 10px;
+        padding-left: 15%;
+        padding-bottom: 0px;
+        background-color: white;
+        color: black;
+        width: 300px;
+        height: 220px;
+    }
+    h2{
+        margin-top: 0px;
+    }
+    .footer-div{
+        height: 150px;
+        width: 100%;
+    }
+    #footer-form{
+        padding-right: 0px;
+        margin-right: 0px;
+        padding-left: 0px;
+        width: 100%;
+    
+    }
+    header{
+        position: fixed;
+    }
+    .footer-para{
+        position: relative;
+        bottom: 14px;
+        margin-top: 0%;
+    }
+}
+
+
+
+
 
 
 
