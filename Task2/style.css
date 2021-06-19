@@ -21,6 +21,9 @@ footer{
     -moz-user-select: none;
     user-select: none;
 }
+.card-text{
+  text-align: center;
+}
 
   @media (min-width: 768px) {
     .bd-placeholder-img-lg {
