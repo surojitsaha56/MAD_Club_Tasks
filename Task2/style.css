@@ -6,14 +6,21 @@ header {
     width: 100%;
     top: 0;
     left: 0;
-  }
+    z-index: 99;
+}
+.footer-content{
+  text-align: center;
+}
+footer{
+  height: 15px;
+}
 .bd-placeholder-img {
     font-size: 1.125rem;
     text-anchor: middle;
     -webkit-user-select: none;
     -moz-user-select: none;
     user-select: none;
-  }
+}
 
   @media (min-width: 768px) {
     .bd-placeholder-img-lg {
